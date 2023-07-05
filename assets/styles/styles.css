@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFDF9;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.section-one {
+    background-image: url("../images/background/section-one.webp");
+    max-height: 600px;
+}
+
+.names-img-container {
+    width: 100px;
+    margin: auto;
+}
+
+.names-img {
+    width: 500px;
+    margin: auto;
+    display: block;
+    mix-blend-mode: multiply;
+}
