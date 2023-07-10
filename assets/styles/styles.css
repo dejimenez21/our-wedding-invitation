@@ -1,19 +1,25 @@
 body {
     background-color: #FFFDF9;
     margin: 0;
+    font-family: 'Carrois Gothic', sans-serif;
 }
 
-h1 {
+.names {
     margin-top: 0;
+    color: #98AA8A;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
 }
 
 .section-one {
     background-image: url("../images/background/section-one.webp");
-    max-height: 600px;
+    background-repeat: no-repeat;
 }
 
-.names-img-container {
-    width: 100px;
+.invitation-text {
+    width: 600px;
     margin: auto;
 }
 
@@ -21,5 +27,21 @@ h1 {
     width: 500px;
     margin: auto;
     display: block;
+}
+
+.transparent {
     mix-blend-mode: multiply;
+}
+
+.section-two {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.section-two-bg {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
