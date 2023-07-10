@@ -1,14 +1,15 @@
 body {
     background-color: #FFFDF9;
     margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Bacasime Antique', serif;
 }
 
 .names {
     margin-top: 0;
     color: #98AA8A;
-    font-size: 2em;
+    font-size: 2.5em;
     margin: auto;
+    margin-bottom: 1.2em;
     text-align: center;
     font-weight: 700;
 }
@@ -18,13 +19,25 @@ body {
     background-repeat: no-repeat;
 }
 
+.bible-verse {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-family: 'Dynalight', cursive;
+}
+
 .invitation-text {
     width: 600px;
     margin: auto;
+    text-align: justify;
+    font-size: 1.5em;
+    text-justify: inter-word;
 }
 
 .names-img {
-    width: 500px;
+    width: 400px;
     margin: auto;
     display: block;
 }
