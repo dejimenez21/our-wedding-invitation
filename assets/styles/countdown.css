@@ -1,0 +1,27 @@
+#countdown {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #98AA8A; /* Matches your current color scheme */
+    background-color: rgba(255, 253, 249, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Smooth the background details */
+    margin: 50px auto; /* Centers the countdown and gives vertical spacing */
+    border-radius: 20px; /* Optional: Rounds the corners of the countdown box */
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Matches your current maximum width */
+  }
+  
+  #countdown div {
+    text-align: center;
+    margin: 0 15px;
+  }
+  
+  #countdown span {
+    font-size: 2em; /* Matches your current font size */
+    margin-bottom: 0.5em;
+  }
+  
+  .smalltext {
+    font-size: 1em; /* Matches your current smaller font size */
+    font-family: 'Dynalight', cursive; /* Matches your current cursive font */
+  }
