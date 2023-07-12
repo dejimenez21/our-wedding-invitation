@@ -24,3 +24,10 @@
   .smalltext {
     font-size: 1em;
   }
+
+  .countdown-text {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 3em;
+  }

@@ -4,6 +4,10 @@ body {
     font-family: 'Bacasime Antique', serif;
 }
 
+.quote {
+    font-family: 'Dynalight', cursive;
+}
+
 .names {
     margin-top: 0;
     color: #98AA8A;
@@ -68,3 +72,32 @@ section {
     top: 0;
     left: 0;
 }
+
+.section-two-bottom-bg {
+    width: 220px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(270deg) scaleX(-1);
+}
+
+.date {
+    margin: 3em auto;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    background-color: #91804D;
+    color: #FFFDF9;
+}
+
+/* .date {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    padding: 20px;
+    background-color:#98AA8A;
+    width: 400px;
+    border-radius: 10px;
+    color: #FFFDF9;
+} */

@@ -1,0 +1,71 @@
+.venues-container {
+    background-color: #F0F3E8;
+    width: 100%;
+}
+
+.venues-info {
+    width: 70%;
+    display: flex;
+    margin: 7em auto;
+    justify-content: space-around;
+}
+
+.card-divisor {
+    background-color: #443217;
+    margin-top: 50px;
+    height: 435px;
+    width: 2px;
+}
+
+.info-card {
+    width: 35%;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.info-card > img {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.info-card > h2 {
+    font-size: 2em;
+}
+
+.info-card > p {
+    margin: 0;
+}
+
+.time {
+    font-size: 1.75em;
+    margin-bottom: 0.5em !important;
+}
+
+.place {
+    font-size: 1.5em;
+    margin-bottom: 1em !important;
+}
+
+.address {
+    font-size: 1.1em;
+}
+
+.map {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.05em;
+    font-weight: 600;
+    margin: 3em auto;
+    padding: 15px;
+    width: 100px;
+    background-color: rgb(213, 213, 213);
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.map:hover {
+    background-color: #323232;
+    color: #FFFDF9;
+    cursor: pointer;
+}
