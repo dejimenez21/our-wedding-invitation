@@ -25,6 +25,7 @@ section {
 .section-one {
     background-image: url("../images/background/section-one.webp");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .bible-verse {
