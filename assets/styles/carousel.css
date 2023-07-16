@@ -1,0 +1,22 @@
+.section-three {
+    padding: 50px;
+    background: #fff; /* change color as needed */
+  }
+  
+  .carousel-item {
+    max-height: 600px; /* change height as needed */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    max-height: 600px; /* match this height with the above */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  
+  .carousel-indicators li {
+    background-color: #000; /* change color as needed */
+  }
