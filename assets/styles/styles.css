@@ -4,6 +4,10 @@ body {
     font-family: 'Bacasime Antique', serif;
 }
 
+img {
+    mix-blend-mode: multiply;
+}
+
 .quote {
     font-family: 'Dynalight', cursive;
 }
@@ -49,10 +53,6 @@ section {
     width: 400px;
     margin: auto;
     display: block;
-}
-
-.transparent {
-    mix-blend-mode: multiply;
 }
 
 .section-two {

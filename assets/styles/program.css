@@ -1,0 +1,55 @@
+.section-three {
+    justify-content: center;
+}
+
+.section-three > div > div > img {
+    width: 80px;
+}
+
+.program-row {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.program-activity {
+    width: 150px;
+}
+
+.program-activity-title {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.program-activity-time {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.program-activity-time > span {
+    font-size: 1rem;
+}
+
+.program-row-divisor {
+    background-color: #443217;
+    margin: 20px auto;
+    height: 4px;
+    width: 880px;
+}
+
+.program-upper-row > .program-activity {
+    margin: 0 100px;
+}
+
+.program-lower-row > .program-activity {
+    margin: 0 100px;
+}
+
+.program-upper-row {
+}
+
+.program-lower-row {
+}
