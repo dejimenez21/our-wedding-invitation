@@ -1,162 +1,219 @@
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-three > div > div > img {
-        width: 60px;
-    }
+  .section-three > div > div > img {
+    width: 60px;
+  }
 
-    .program-row {
-        flex-direction: column;
-        align-items: center;
-    }
+  .program-row {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .program-row-divisor {
-        background-color: #443217;
-        margin: 20px auto;
-        height: 4px;
-        width: 880px;
-        display: none;
-    }
+  .program-row-divisor {
+    background-color: #443217;
+    margin: 20px auto;
+    height: 4px;
+    width: 880px;
+    display: none;
+  }
 
-    .program-activity {
-        width: 100px;
-    }
+  .program-activity {
+    width: 100px;
+  }
 
-    .program-activity-title {
-        font-size: 1em;
-    }
+  .program-activity-title {
+    font-size: 1em;
+  }
 
-    .program-activity-time {
-        font-size: 1.5rem;
-    }
+  .program-activity-time {
+    font-size: 1.5rem;
+  }
 
-    .program-upper-row > .program-activity,
-    .program-lower-row > .program-activity {
-        margin: 10px;
-    }
+  .program-upper-row > .program-activity,
+  .program-lower-row > .program-activity {
+    margin: 10px;
+  }
 
-    .names {
-        font-size: 1.5em;
-    }
+  .names {
+    font-size: 1.5em;
+  }
 
-    .bible-verse {
-        width: 80%;
-        font-size: 1.5em;
-    }
+  .bible-verse {
+    width: 80%;
+    font-size: 1.5em;
+  }
 
-    .date {
-        font-size: 1.5em;
-    }
+  .date {
+    font-size: 1.5em;
+  }
 
-    .venues-info {
-        flex-direction: column;
-        align-items: center;
-    }
+  .venues-info {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .info-card {
-        width: 90%;
-        padding: 20px;
-    }
+  .info-card {
+    width: 90%;
+    padding: 20px;
+  }
 
-    .info-card > img {
-        width: 80px;
-    }
+  .info-card > img {
+    width: 80px;
+  }
 
-    .info-card > h2 {
-        font-size: 1.5em;
-    }
+  .info-card > h2 {
+    font-size: 1.5em;
+  }
 
-    .time {
-        font-size: 1.3em;
-    }
+  .time {
+    font-size: 1.3em;
+  }
 
-    .place {
-        font-size: 1.2em;
-    }
+  .place {
+    font-size: 1.2em;
+  }
 
-    .address {
-        font-size: 1em;
-    }
+  .address {
+    font-size: 1em;
+  }
 
-    .countdown {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    .countdown div {
-        margin: 10px 0;
-        font-size: 20px;
-    }
+  .countdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .countdown div {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fffdf9; /* White color for text */
+  }
+
+  .time-card {
+    background: rgba(
+      152,
+      170,
+      138,
+      0.8
+    ); /* Semi-transparent background similar to the example */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+
+  #countdown span {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.3em;
+  }
+
+  .smalltext {
+    font-size: 0.8rem;
+  }
+
+  .countdown-text {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 3em;
+  }
+
+  .section-two-bg {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  .card-divisor {
+    background-color: #443217;
+    margin-bottom: 70px;
+    height: 2px;
+    width: 100%;
+    /* display: none; */
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 600px) {
-    .section-three > div > div > img {
-        width: 70px;
-    }
+  .section-three > div > div > img {
+    width: 70px;
+  }
 
-    .program-row {
-        flex-direction: row;
-        justify-content: center;
-    }
+  .program-row {
+    flex-direction: row;
+    justify-content: center;
+  }
 
-    .program-activity {
-        width: 120px;
-    }
+  .program-activity {
+    width: 120px;
+  }
 
-    .program-activity-title {
-        font-size: 1.3em;
-    }
+  .program-activity-title {
+    font-size: 1.3em;
+  }
 
-    .program-activity-time {
-        font-size: 1.8rem;
-    }
+  .program-activity-time {
+    font-size: 1.8rem;
+  }
 
-    .program-upper-row > .program-activity,
-    .program-lower-row > .program-activity {
-        margin: 20px;
-    }
+  .program-upper-row > .program-activity,
+  .program-lower-row > .program-activity {
+    margin: 20px;
+  }
 
-    .names {
-        font-size: 2em;
-    }
+  .names {
+    font-size: 2em;
+  }
 
-    .bible-verse {
-        width: 90%;
-        font-size: 1.8em;
-    }
+  .bible-verse {
+    width: 90%;
+    font-size: 1.8em;
+  }
 
-    .date {
-        font-size: 1.8em;
-    }
+  .date {
+    font-size: 1.8em;
+  }
 
-    .venues-info {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+  .venues-info {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    .info-card {
-        width: 80%;
-        padding: 30px;
-    }
+  .info-card {
+    width: 80%;
+    padding: 30px;
+  }
 
-    .info-card > img {
-        width: 90px;
-    }
+  .info-card > img {
+    width: 90px;
+  }
 
-    .info-card > h2 {
-        font-size: 1.8em;
-    }
+  .info-card > h2 {
+    font-size: 1.8em;
+  }
 
-    .time {
-        font-size: 1.5em;
-    }
+  .time {
+    font-size: 1.5em;
+  }
 
-    .place {
-        font-size: 1.4em;
-    }
+  .place {
+    font-size: 1.4em;
+  }
 
-    .address {
-        font-size: 1.1em;
-    }
+  .address {
+    font-size: 1.1em;
+  }
 }
