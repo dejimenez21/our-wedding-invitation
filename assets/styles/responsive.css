@@ -1,6 +1,5 @@
 /* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 672px) {
   .names-img {
     width: 275px;
     margin: auto;
@@ -11,7 +10,7 @@
     display: block;
     margin: auto;
     width: 350px;
-}
+  }
 
   .section-three > div > div > img {
     width: 60px;
@@ -90,49 +89,17 @@
     font-size: 1em;
   }
 
-  .countdown {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .countdown div {
-    margin: 10px 0;
-    font-size: 20px;
-  }
-
   .section-three {
     display: flex;
   }
-}
-
-@media only screen and (max-width: 672px) {
-  #countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    color: #fffdf9; /* White color for text */
-  }
 
   .time-card {
-    background: rgba(
-      152,
-      170,
-      138,
-      0.8
-    ); /* Semi-transparent background similar to the example */
-    border-radius: 10px; /* Rounded corners */
     margin: 0 5px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 18px;
   }
 
   #countdown span {
-    display: block;
-    font-size: 2em;
-    margin-bottom: 0.3em;
+    font-size: 1.7rem;
   }
 
   .smalltext {
@@ -142,23 +109,22 @@
   .countdown-text {
     margin: auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7rem;
     margin-bottom: 3em;
   }
 
   .section-two-bg {
-    width: 250px;
-    position: absolute;
-    top: 0;
-    left: 0;
     display: none;
   }
 
   .card-divisor {
-    background-color: #443217;
     margin-bottom: 70px;
     height: 2px;
     width: 100%;
     /* display: none; */
+  }
+
+  .section-two-bottom-bg {
+    display: none;
   }
 }

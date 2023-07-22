@@ -22,7 +22,7 @@
 
 #countdown span {
   display: block;
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 0.3em;
 }
 
@@ -33,6 +33,6 @@
 .countdown-text {
   margin: auto;
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
   margin-bottom: 3em;
 }
