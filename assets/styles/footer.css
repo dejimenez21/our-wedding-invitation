@@ -1,0 +1,32 @@
+footer {
+    background: #ADBBA0; /* A darker beige/brown color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-content .section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-content h4 {
+    margin-bottom: 20px;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
