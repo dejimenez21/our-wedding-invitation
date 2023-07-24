@@ -1,6 +1,7 @@
 window.onload = (e) => {
   let btnChurch = document.getElementById("btnChurch");
   let btnClub = document.getElementById("btnClub");
+  let btnGifts = document.getElementById("btnGifts");
 
   btnChurch.onclick = (e) => {
     window.open(
@@ -15,4 +16,11 @@ window.onload = (e) => {
       "_blank"
     );
   };
+
+  btnGifts.onclick = (e) => {
+    window.open(
+      "https://listaderegalos.casacuesta.com/Event/Daniel-and-Jennifer?utm_source=share",
+      "_blank"
+    )
+  }
 };

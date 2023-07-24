@@ -1,0 +1,93 @@
+.gifts-section {
+    background-color: #f0f3e8;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .gifts-section img {
+      width: 80px;
+  }
+  
+  .cash-gifts-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .gifts-section h2 {
+    color: #91804d;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .gifts-section p {
+    color: #443217;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .contact-button, .registry-button {
+    background-color: #91804d;
+    color: #fffdf9;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover, .registry-button:hover {
+    background-color: #443217;
+  }
+  
+  .toggle-container {
+    width: 100%;
+  }
+  
+  input[type="radio"].gift-option {
+    display: none;
+  }
+  
+  label.gift-option {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 10px 20px;
+    background-color: #91804d;
+    color: #fffdf9;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="radio"].gift-option:checked + label.gift-option {
+    background-color: #443217;
+    color: #fffdf9;
+  }
+  
+  .option-content {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #registry:checked ~ #registry-content,
+  #bank-transfer:checked ~ #bank-transfer-content {
+    display: block;
+  }
+
+  .account-container {
+    width: 250px;
+    border-color: #443217;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .account-container p {
+    font-size: 1rem;
+    color: black;
+    margin: 0
+  }

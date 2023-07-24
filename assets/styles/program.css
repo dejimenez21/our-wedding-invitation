@@ -1,5 +1,6 @@
 .section-three {
     justify-content: center;
+    margin-bottom: 7em;
 }
 
 .section-three > div > div > img {
@@ -46,10 +47,4 @@
 
 .program-lower-row > .program-activity {
     margin: 0 100px;
-}
-
-.program-upper-row {
-}
-
-.program-lower-row {
 }
