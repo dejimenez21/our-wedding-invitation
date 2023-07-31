@@ -20,6 +20,7 @@
 
     <script src="./assets/scripts/countdown.js"></script>
     <script src="./assets/scripts/maps.js"></script>
+    <script src="./assets/scripts/gifts.js"></script>
     <title>Le Boda</title>
   </head>
   <body>
@@ -154,15 +155,16 @@
         <p>Su presencia en nuestra boda es el regalo más grande de todos. Sin embargo, si desea honrarnos con un regalo, hemos proporcionado las siguientes opciones:</p>
     
         <div class="toggle-container">
-          <input type="radio" id="registry" name="gift-option" checked>
-          <label for="registry" class="gift-option">Lista de Regalos</label>
-    
-          <input type="radio" id="bank-transfer" name="gift-option">
-          <label for="bank-transfer" class="gift-option">Transferencia Bancaria</label>
-    
+
+          <!-- <input type="radio" id="bank-transfer" name="gift-option"> -->
+          <div id="bank-transfer" class="gift-option">Transferencia Bancaria</div>
+
+          <!-- <input type="radio" id="registry" name="gift-option" checked> -->
+          <div id="registry" class="gift-option">Lista de Regalos</div>
+
           <div class="option-content" id="registry-content">
             <p>Hemos registrado una lista en <span style="font-weight: 700;">Casa Cuesta</span>. Si desea comprar un regalo de la lista, haga clic en el botón de abajo.</p>
-            <button id="btnGifts" class="contact-button registry-button">Ver Lista</button>
+            <div id="btnGifts" class="contact-button registry-button">Ver Lista</div>
           </div>
     
           <div class="option-content" id="bank-transfer-content">
@@ -179,6 +181,11 @@
         </div>
       </div>
     </section>
+
+    <section class="section dress-code-section">
+
+    </section>
+
     <footer>
       <div class="footer-bottom">
           <p>&copy; 2023 Daniel Jimenez. All rights reserved.</p>

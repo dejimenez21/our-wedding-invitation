@@ -28,7 +28,7 @@
     line-height: 1.6;
   }
   
-  .contact-button, .registry-button {
+  .registry-button {
     background-color: #91804d;
     color: #fffdf9;
     padding: 10px 25px;
@@ -36,10 +36,12 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100px;
+    margin: auto;
     transition: background-color 0.3s ease;
   }
   
-  .contact-button:hover, .registry-button:hover {
+  .registry-button:hover {
     background-color: #443217;
   }
   
@@ -51,7 +53,7 @@
     display: none;
   }
   
-  label.gift-option {
+  .gift-option {
     display: inline-block;
     margin: 0 1em;
     padding: 10px 20px;
@@ -62,7 +64,7 @@
     transition: background-color 0.3s ease;
   }
   
-  input[type="radio"].gift-option:checked + label.gift-option {
+  .option-selected {
     background-color: #443217;
     color: #fffdf9;
   }
@@ -72,8 +74,7 @@
     margin-top: 20px;
   }
   
-  #registry:checked ~ #registry-content,
-  #bank-transfer:checked ~ #bank-transfer-content {
+  .content-show {
     display: block;
   }
 
@@ -90,4 +91,11 @@
     font-size: 1rem;
     color: black;
     margin: 0
+  }
+
+
+  @media only screen and (max-width: 672px) {
+     .gift-option {
+      margin-top: 10px;
+     }
   }
