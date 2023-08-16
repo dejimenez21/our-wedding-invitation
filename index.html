@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/styles/footer.css" />
     <link rel="stylesheet" href="./assets/styles/gifts.css" />
     <link rel="stylesheet" href="./assets/styles/dresscodes.css" />
+    <link rel="stylesheet" href="./assets/styles/faqs.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,9 +20,16 @@
     />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./assets/scripts/countdown.js"></script>
     <script src="./assets/scripts/maps.js"></script>
     <script src="./assets/scripts/gifts.js"></script>
+    <script src="./assets/scripts/accordion.js"></script>
     <title>Le Boda</title>
   </head>
   <body>
@@ -220,6 +228,137 @@
         Para permitir que todos los invitados se relajen y disfruten, hemos
         elegido que nuestro día especial sea solo para adultos. Gracias por su
         comprensión.
+      </div>
+    </section>
+
+    <section class="section faqs-section">
+      <h2>FAQs</h2>
+      <div class="faqs-container">
+        <button class="accordion">
+          <h2 class="faq">¿Por qué no niños?</h2>
+          <i
+            class="fa fa-angle-down fa-2x accordion-icon"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-angle-up fa-2x accordion-icon invisible"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="panel">
+          <p class="common-p">
+            Lamentamos cualquier inconveniente que esto pueda causar. La
+            decisión de no permitir niños en nuestro evento es simplemente una
+            cuestión de logística y preferencia personal. Queremos asegurarnos
+            de que todos los asistentes puedan disfrutar de la celebración en un
+            ambiente más formal y tranquilo. Apreciamos mucho su comprensión y
+            esperamos que puedan unirse a nosotros en esta ocasión especial.
+          </p>
+        </div>
+
+        <button class="accordion">
+          <h2 class="faq">¿Con quién confirmo mi asistencia?</h2>
+          <i
+            class="fa fa-angle-down fa-2x accordion-icon"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-angle-up fa-2x accordion-icon invisible"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="panel">
+          <p class="common-p">
+            Puede confirmar su asistencia contactando a la persona que le hizo
+            llegar su invitación.
+          </p>
+        </div>
+
+        <button class="accordion">
+          <h2 class="faq">¿Puedo llevar acompañante?</h2>
+          <i
+            class="fa fa-angle-down fa-2x accordion-icon"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-angle-up fa-2x accordion-icon invisible"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="panel">
+          <p class="common-p">
+            Te agradecemos mucho por tu entusiasmo de querer compartir nuestro
+            día especial con otros. Sin embargo, debido a restricciones de
+            espacio y logística, queremos limitarnos a las personas que se
+            mencionan específicamente en la invitación.
+          </p>
+        </div>
+
+        <button class="accordion">
+          <h2 class="faq">¿Habrá open bar?</h2>
+          <i
+            class="fa fa-angle-down fa-2x accordion-icon"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-angle-up fa-2x accordion-icon invisible"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="panel">
+          <p class="common-p">
+            ¡Por supuesto! Estaremos ofreciendo una barra libre de bebidas no
+            alcohólicas durante la celebración. Queremos asegurarnos de que
+            todos disfruten de la fiesta y encuentren una variedad de
+            refrescantes opciones para saborear.
+          </p>
+        </div>
+        <button class="accordion">
+          <h2 class="faq">¿Cuál es su modalidad de regalo preferida?</h2>
+          <i
+            class="fa fa-angle-down fa-2x accordion-icon"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-angle-up fa-2x accordion-icon invisible"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="panel">
+          <p class="common-p">
+            Su presencia en nuestra boda es el regalo más valioso. Aunque hemos
+            proporcionado una lista de regalos en Casa Cuesta, preferimos
+            sinceramente contribuciones a nuestra cuenta bancaria. Esto nos
+            permite tener la flexibilidad para invertir en nuestros sueños y
+            metas futuras. Sin embargo, respetamos y apreciamos cualquier forma
+            en que decidan mostrarnos su cariño. ¡Gracias por su comprensión y
+            generosidad!
+          </p>
+        </div>
+        <button class="accordion">
+          <h2 class="faq">¿Puedo tomar fotos durante la boda?</h2>
+          <i
+            class="fa fa-angle-down fa-2x accordion-icon"
+            aria-hidden="true"
+          ></i>
+          <i
+            class="fa fa-angle-up fa-2x accordion-icon invisible"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="panel">
+          <p class="common-p">
+            Durante la ceremonia, contaremos con fotógrafos profesionales que
+            capturarán cada momento especial, por lo que les pedimos amablemente
+            que no tomen fotografías. Queremos que todos disfruten plenamente de
+            la ceremonia sin distracciones. Posteriormente, tendrán acceso a
+            todas las fotos tomadas por nuestros fotógrafos. Sin embargo, en la
+            recepción, ¡será un placer que tomen sus propias fotos y las
+            compartan! Si lo hacen, les sugerimos utilizar el hashtag
+            <strong>#FinallyMarriedDanielYJennifer </strong>para que todos podamos disfrutar de
+            sus imágenes. ¡Gracias por su comprensión y colaboración!
+          </p>
+        </div>
       </div>
     </section>
 
