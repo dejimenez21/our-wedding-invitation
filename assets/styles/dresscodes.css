@@ -1,0 +1,54 @@
+.dress-code-section {
+    text-align: center;
+}
+
+.suit-dress {
+    width: 125px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.dress-code-section h2 {
+    color: #6B7E68;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.dresscode-name {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.dress-code-container {
+    border: 3px solid #3D2D12;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.dresscode-divisor {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.dresscode-description {
+    font-size: 1.6rem;
+}
+
+.no-child-section {
+    background-color: #f0f3e8;
+    text-align: center;
+}
+
+.no-child-section > h2 {
+    font-size: 2rem;
+    
+}
+
+.no-child-section > p {
+
+}

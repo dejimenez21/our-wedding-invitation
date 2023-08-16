@@ -1,7 +1,7 @@
 const contentSuffix = "-content";
 const selectedClass = "option-selected";
-const hideStyle = "display: none;";
-const showStyle = "display: block;";
+const hideStyle = "none";
+const showStyle = "block";
 
 const observerOptions = {
   attributes: true,
@@ -14,9 +14,9 @@ function callback(mutationList, observer) {
       let content = document.getElementById(element.id + contentSuffix);
 
       if (element.classList.contains(selectedClass)) {
-        content.style = showStyle;
+        content.style.display = showStyle;
       } else {
-        content.style = hideStyle;
+        content.style.display = hideStyle;
       }
     }
   });
@@ -36,8 +36,6 @@ window.onload = (_) => {
     option.onclick = (_) => {
       options.forEach((value) => value.classList.remove(selectedClass));
       option.classList.add(selectedClass);
-
-      optionContent.style = showStyle;
     };
   });
 
