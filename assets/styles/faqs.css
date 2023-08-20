@@ -70,3 +70,41 @@
     color: yellow;
     text-decoration: underline;
 }
+
+@media (max-width: 672px) {
+    .active, .accordion:hover .faq{
+        margin-left: 0;
+    }
+    
+    .dress-code-section h2 {
+        font-size: 1.8rem;
+    }
+      
+    .dresscode-name {
+        font-size: 1.8rem;
+    }
+    
+    .dress-code-container {
+        max-width: 300px;
+    }
+    
+    .dresscode-description {
+        font-size: 1.4rem;
+    }
+
+    .no-children-banner {
+        border-radius: 10px;
+        max-width: 200px;
+        background-color: #d8a272;
+        text-align: center;
+        margin: 2rem auto;
+        padding: 10px 20px;
+        border: 3px solid #d2945e;
+        font-size: 1.3rem;
+    }
+    
+    .no-children-banner > h3 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
