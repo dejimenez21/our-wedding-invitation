@@ -1,4 +1,4 @@
-window.onload = (e) => {
+$(document).ready(function () {
   let btnChurch = document.getElementById("btnChurch");
   let btnClub = document.getElementById("btnClub");
 
@@ -15,4 +15,4 @@ window.onload = (e) => {
       "_blank"
     );
   };
-};
+});
